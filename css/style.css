@@ -1,0 +1,264 @@
+/**
+*  @description [description]
+*  @author [author]
+*  @version [version]
+*  @copyright [description]
+*
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+:focus {
+    outline: 0;
+}
+
+body {
+    line-height: 1;
+    color: black;
+
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+
+blockquote, q {
+    quotes: "" "";
+}
+
+body {
+    background: #efe9e9;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    cursor: pointer;
+    display: block;
+}
+
+.wrapper {
+    background: url(../images/bgWrapper.jpg) no-repeat 0 276px;
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    background: url(../images/bgHeader.png) no-repeat;
+    width: 900px;
+    height: 641px;
+}
+
+.nav {
+    margin: 56px 0 0 30px;
+    float: left;
+}
+
+.btnHome {
+    background: url(../images/btnHome.png) no-repeat 0 bottom;
+    width: 148px;
+    height: 43px;
+    float: left;
+    margin-right: 26px;
+}
+
+.btnHome:hover {
+    background-position: top;
+}
+
+.btnDuda {
+    background: url(../images/btnTuDuda.png) no-repeat 0 bottom;
+    width: 148px;
+    height: 43px;
+    float: left;
+    margin-right: 26px;
+}
+
+.btnDuda:hover {
+    background-position: top;
+}
+
+.btnVideos {
+    background: url(../images/btnVideos.png) no-repeat 0 bottom;
+    width: 148px;
+    height: 43px;
+    float: left;
+}
+
+.btnVideos:hover {
+    background-position: top;
+}
+
+.contFrases {
+    margin: 20px auto 26px;
+    width: 471px;
+}
+.contSlideFoot {
+    margin-top: 30px;
+    width: 900px;
+    clear: both;
+    float: left;
+}
+
+.flexslider{
+    position: relative;
+}
+
+.flexslider .flex-prev{
+    background: url(../images/fleIsqui.png) no-repeat;
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    text-indent: 9999px;
+    top: 46px;
+    left: -64px;
+}
+
+.flexslider .flex-next{
+    background: url(../images/fleDer.png) no-repeat;
+    width: 42px;
+    height: 40px;
+    position: absolute;
+    text-indent: 9999px;
+    top: 46px;
+    right: -64px;
+}
+
+.flexslider2{
+    position: relative;
+}
+
+.flexslider2 .flex-prev{
+    background: url(../images/fleIzqui2.png) no-repeat;
+    width: 49px;
+    height: 48px;
+    position: absolute;
+    top: 100px;
+    left: 24px;
+}
+
+.flexslider2 .flex-next{
+    background: url(../images/fleDer2.png) no-repeat;
+    width: 50px;
+    height: 49px;
+    position: absolute;
+    top: 100px;
+    right: 24px;
+}
+
+.contDataMenu{
+    width: 100%;
+    clear: both;
+    float: left;
+}
+
+.menuIzq{
+    float: left;
+}
+.contMensaje{
+    float: right;
+    position: relative;
+}
+
+.btnMetodos{
+    background: url(../images/btnMetodos.png) no-repeat;
+    width: 197px;
+    height: 85px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.btnMitos{
+    background: url(../images/btnMitos.png) no-repeat;
+    width: 185px;
+    height: 81px;
+    float: left;
+    margin-bottom: 10px;
+    clear: left;
+}
+
+.btnEnfermedades{
+    background: url(../images/btnEnfermedades.png) no-repeat;
+    width: 271px;
+    height: 76px;
+    float: left;
+    margin-bottom: 10px;
+    clear: left;
+}
+
+.txtReflexion{
+    background: url(../images/txtReflexion.png) no-repeat;
+    width: 156px;
+    height: 32px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+.btnEnviar{
+    background: url(../images/btnEnviar.png) no-repeat;
+    width: 61px;
+    height: 22px;
+    position: absolute;
+    bottom: 32px;
+    right: 120px;
+    cursor: pointer;
+}
+
+.textarea{
+    background: url(../images/bgTextBox.png) no-repeat;
+    width: 422px;
+    height: 235px;
+    border: 0;
+    padding: 40px;
+    box-sizing: border-box;
+    font: 13px "Arial";
+    color: #404040;
+    margin-right: 86px;
+    margin-top: 42px;
+}
+
+.footer{
+    margin-top: 50px;
+    clear: both;
+    float: left;
+}
+
+.clearFix:after{
+    clear: both;
+    display: table;
+    content: " "
+}
+.clearFix:before{
+    display: table;
+    content: " "
+}
+
+
+
+
+
+
+
